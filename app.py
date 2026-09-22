@@ -3,7 +3,7 @@ app = Flask(__name__)
 ads = []
 MY_PIC = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
 MY_NAME = "Maureen - Eldoret"
-
+maureen 
 @app.route("/")
 def home():
     html = f"""<meta name="viewport" content="width=device-width"><style>body{{margin:0;font-family:sans-serif;background:#f0f2f5}}.top{{background:#25D366;color:white;padding:25px;text-align:center}}.top img{{width:90px;height:90px;border-radius:50%;border:3px solid white}}.content{{padding:15px}}.ad{{background:white;padding:15px;margin:10px 0;border-radius:10px;box-shadow:0 2px 5px #0001}}.btn{{background:#25D366;color:white;padding:12px 18px;text-decoration:none;border-radius:8px;display:inline-block}}</style><div class=top><img src="{MY_PIC}"><h2>{MY_NAME}</h2><p>Buy & Sell in Eldoret</p></div><div class=content><a class=btn href=/post>+ Post Your Ad</a><hr>"""
